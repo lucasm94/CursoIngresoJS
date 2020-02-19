@@ -32,6 +32,7 @@ function mostrar()
 	var promedioNegativos = acumNegativos / contadorNegativos;
 	var diferenciaPosNeg = acumPositivos - acumNegativos;
 
+	document.write('ceros: ' +contadorCeros);
 	console.log('ceros: ' +contadorCeros);
 	console.log('contadorPositivos: ' +contadorPositivos);
 	console.log('contadorNegativos: ' +contadorNegativos);
@@ -42,3 +43,4 @@ function mostrar()
 	console.log('diferenciaPosNeg: ' +diferenciaPosNeg);
 
 }//FIN DE LA FUNCIÓN
+//tp3
